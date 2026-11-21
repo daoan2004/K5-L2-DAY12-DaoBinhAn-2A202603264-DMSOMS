@@ -11,16 +11,3 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
-
-# Local datasets, peer exports, intermediate artifacts and packaging copies
-Day12_learner_bundles*/
-/artifacts/
-/K5-L2-DAY12-DaoBinhAn-2A202603264-DMSOMS/
-/K5-L2-DAY12-DaoBinhAn-2A202603264-DMSOMS.zip
-/export_current.zip
-/check_downloaded_export.txt
-/LAB_G05_STATUS.txt
-/scripts/apply_g05_draft_in_cvat.py
-/scripts/check_g05.ps1
-/scripts/finalize_g05_reports.py
-/scripts/prepare_g05_draft.py
