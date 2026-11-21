@@ -1,4 +1,36 @@
-# Lab Ngày 12 — DMS & OMS: gán nhãn khung hình cabin RGB + IR
+# Bài nộp Ngày 12 — Đào Bình An — 2A202603264
+
+Mã bộ ảnh: **G05**. Người review: **Nguyễn Hồ Bắc — MSSV 03351**.
+Các file bài nộp nằm ngay tại gốc repo; dữ liệu ảnh và bản export của peer chỉ giữ trên máy.
+
+| Bằng chứng | File |
+|---|---|
+| E1 — Nhãn của người học, 22 khung, không kèm ảnh | [export_final.zip](export_final.zip) |
+| E2 — Kết quả kiểm tra | [Checkpoint A](check_cpA.txt), [Checkpoint B](check_cpB.txt), [Kiểm cuối](check_final.txt) |
+| E3 — So sánh với bản peer | [disagreement_log.csv](disagreement_log.csv) |
+| E4 — Quan sát IR | [ir_log.csv](ir_log.csv) |
+| E5 — Danh sách lớp và câu hỏi guideline | [class_list_v0.md](class_list_v0.md) |
+| Hồ sơ bổ sung | [TEAM.md](TEAM.md), [self_review.md](self_review.md), [exit_ticket.md](exit_ticket.md), [prompts.md](prompts.md) |
+
+Kiểm cuối: **22 ảnh, 22 frame_meta, 0 lỗi, 0 cảnh báo**. Export chỉ chứa `annotations.xml`.
+Review có 110 dòng nhận xét: 34 đề xuất kết luận và 76 trường hợp `ambiguous` chưa thống nhất.
+Bản nhãn có AI hỗ trợ và được người học sửa lại; quá trình được khai báo trong `prompts.md`.
+Các ca trẻ/em bé S02/S03/S08 chưa có kết luận coach và box tay D02 còn cần cải thiện;
+xem [annotation_notes.txt](annotation_notes.txt) và [self_review.md](self_review.md).
+Những giới hạn này không được kiểm chứng chỉ bằng kết quả 0 lỗi của script.
+
+Chạy kiểm tra từ gốc repo (Python 3.9+):
+
+```powershell
+python scripts/cabin_check.py check export_final.zip --expect 22
+```
+
+Repo không chứa manifest dữ liệu. Khi kiểm trên máy có G05, có thể bổ sung
+`--manifest G05/oms/manifest.csv`. Nộp **link repo này** lên LMS theo thông báo của coach.
+
+---
+
+# Tài liệu gốc — Lab Ngày 12: DMS & OMS
 
 AI20K K5 · L2 · Ngày 12 · 14:00–18:00 · CVAT chạy trên máy của bạn · làm **cá nhân hoặc nhóm 2–4 người**
 
