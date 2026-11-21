@@ -1,0 +1,17 @@
+TRẠNG THÁI BẢN NỘP G05
+
+export_final.zip là bản sao nguyên vẹn của export_current.zip do người học tải về.
+Bản peer được lưu riêng tại artifacts/peer_export_final.zip trên máy, không push.
+Không sửa nhãn sau lượt so sánh theo quyết định của người học; không tạo v2 giả.
+Không thay đổi XML bên trong export.
+
+Kiểm tra: 22 ảnh, 22 frame_meta, 0 lỗi, 0 cảnh báo; không kèm ảnh.
+Review: 110 dòng có nhận xét, 34 đề xuất có kết luận, 76 ambiguous.
+Nhận xét do AI hỗ trợ, chưa có xác nhận hai người đã thống nhất từng dòng.
+
+Giới hạn: trẻ/em bé S02/S03/S08 chưa có box trong bản mine, chờ quyết định
+guideline. D02 box tay phải còn lỏng, người học chọn giữ nguyên hiện tại.
+Các điểm mặt và lớp ghế khác nhau chưa chắc chắn được ghi trong review log.
+Peer: Nguyễn Hồ Bắc — MSSV 03351, tài khoản bac; người học đã xác nhận.
+Hình thức cá nhân/nhóm chưa được cung cấp rõ. Chưa nhận phản hồi coach.
+Chưa có slide 54 để đối chiếu đầy đủ E5.
